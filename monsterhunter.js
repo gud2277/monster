@@ -1,31 +1,40 @@
-var contenedor = document.getElementById("container");
-const url='./monsters.json';
-console.log (url)
-fetch(url)
-.then(response => response.json())
-.then (data => {
-    console.log(data.results) 
-    var lista_monster = [];
-    data.results.forEach(monster => {
-        lista_monster.push(
-            `<div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="`+monster.imagen+`" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">`+monster.nombre+`</h5>
-                  <p class="card-text">Estado: `+monster.tipo+` </p>
-                  <p class="card-text">Especie: `+monster.elemento+`</p>
-                  <p class="card-text">Genero: `+monster.debilidad+`</p>
-                </div>
-              </div>
-            </div>
-            </div>`
+const monstruos = [];
+const url = "./monsters.json";
+const container = document.getElementById("container");
 
-            
-        )
-    });
-    contenedor.innerHTML = lista_monster.join("")
-})
+function cargarMonstruos(monstruos){
+  imprimir = ""
+  monstruos.forEach(monstruo => {
+    imprimir += cartaMonstruo(monstruo);
+  });
+  container.innerHTML = imprimir;
+}
+
+function cartaMonstruo(monstruo){
+  carta =  `<div class="card mb-3" style="max-width: 540px;">
+     <div class="row g-0">
+    <div class="col-md-4">
+      <img src="`+monstruo.imagen+`" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">`+monstruo.nombre+`</h5>
+        <p class="card-text">Estado: `+monstruo.tipo+` </p>
+        <p class="card-text">Especie: `+monstruo.elemento+`</p>
+        <p class="card-text">Genero: `+monstruo.debilidad+`</p>
+      </div>
+    </div>
+  </div>
+  </div>`;
+
+  return(carta);
+}
+
+function obtenerMonsters(){
+  fetch(url)
+  .then(res => res.json())
+  .then(data => monstruos.push(data))
+  .then(() => cargarMonstruos(monstruos[0]))
+};
+
+obtenerMonsters();
