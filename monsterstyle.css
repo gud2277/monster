@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    background-color: blueviolet;
+   justify-content: center;
+}
+.card{
+    margin: 5px;
+    width: 30%;
+
+}

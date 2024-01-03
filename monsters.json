@@ -1,0 +1,142 @@
+[
+    {
+        "nombre": "Gran Jagras",
+        "tipo": "Monstruo",
+        "imagen": "https://media.vandal.net/m/1-2018/2018129195255_1.jpg.webp",
+        "elemento": "Agua",
+        "debilidad": "Fuego"
+    },
+    {
+        "nombre": "Kulu-Ya-Ku",
+        "tipo": "Pajaro",
+        "imagen": "",
+        "elemento": "Cabeza",
+        "debilidad": "Fuego"
+    },
+    {
+        "nombre": "Pukei-Pukei",
+        "tipo": "Pajaro",
+        "imagen": "",
+        "elemento": "Veneno",
+        "debilidad": "Rayo"
+    },
+    {
+        "nombre": "Barroth",
+        "tipo": "Monstruo",
+        "imagen": "",
+        "elemento": "Lodo",
+        "debilidad": "Veneno"
+    },
+    {
+        "nombre": "Jyuratodus",
+        "tipo": "Pez",
+        "imagen": "",
+        "elemento": "Agua",
+        "debilidad": "Rayo"
+    },
+    {
+        "nombre": "Tobi-Kadachi",
+        "tipo": "Wyvern de Colmillos",
+        "imagen": "",
+        "elemento": "Rayo",
+        "debilidad": "Agua"
+    },
+    {
+        "nombre": "Anjanath",
+        "tipo": "Monstruo",
+        "imagen": "",
+        "elemento": "Fuego",
+        "debilidad": "Agua"
+    },
+    {
+        "nombre": "Rathian",
+        "tipo": "Wivern Volador",
+        "imagen": "",
+        "elemento": "Fuego",
+        "debilidad": "Draco"
+    },
+    {
+        "nombre": "Legiana",
+        "tipo": "Volador",
+        "imagen": "",
+        "elemento": "Hielo",
+        "debilidad": "Rayo"
+    },
+    {
+        "nombre": "Rathalos",
+        "tipo": "Wivern Volador",
+        "imagen": "",
+        "elemento": "Fuego",
+        "debilidad": "Draco"
+    },
+    {
+        "nombre": "Tzitzi-Ya-Ku",
+        "tipo": "Monstruo",
+        "imagen": "",
+        "elemento": "Brillo",
+        "debilidad": "Hielo"
+    },
+    {
+        "nombre": "Paolomus",
+        "tipo": "Wivern Volador",
+        "imagen": "",
+        "elemento": "Aire",
+        "debilidad": "Fuego"
+    },
+    {
+        "nombre": "Radobaan",
+        "tipo": "Wivern Brutal",
+        "imagen": "",
+        "elemento": "Huesos",
+        "debilidad": "Nitro"
+    },
+    {
+        "nombre": "Gran Girros",
+        "tipo": "Monstruo",
+        "imagen": "",
+        "elemento": "Paralisis",
+        "debilidad": "Sueño"
+    },
+    {
+        "nombre": "Odogaron",
+        "tipo": "Monstruo Feroz",
+        "imagen": "",
+        "elemento": "Sangrado",
+        "debilidad": "Hielo"
+    },
+    {
+        "nombre": "Diablos",
+        "tipo": "Wivern Volador",
+        "imagen": "",
+        "elemento": "Arena",
+        "debilidad": "Hielo"
+    },
+    {
+        "nombre": "Kirin",
+        "tipo": "Dragon Anciano",
+        "imagen": "",
+        "elemento": "Rayo",
+        "debilidad": "Fuego"
+    },
+    {
+        "nombre": "Nergigante",
+        "tipo": "Dragon Anciano",
+        "imagen": "",
+        "elemento": "Draco",
+        "debilidad": "Rayo"
+    },
+    {
+        "nombre": "Kushala Daora",
+        "tipo": "Dragon Anciano",
+        "imagen": "",
+        "elemento": "Viento",
+        "debilidad": "Fuego"
+    },
+    {
+        "nombre": "Vaal Hazak",
+        "tipo": "Dragon Anciano",
+        "imagen": "",
+        "elemento": "Efluvio",
+        "debilidad": "fuego"
+    }
+]
